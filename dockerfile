@@ -1,5 +1,5 @@
 ### Using nodejs base image
-FROM node:latest
+FROM node:14
 
 ### Definning Working Directory
 WORKDIR /app
