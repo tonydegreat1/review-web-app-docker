@@ -11,7 +11,7 @@ USER root
 COPY package.json /app/
 
 ### Installing npm for nodejs
-RUN npm Install
+RUN npm install
 
 ### Copying all application files to the work directory
 COPY . /app/
